@@ -1,0 +1,10 @@
+<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+  <!-- Warm gold rounded rectangle -->
+  <rect x="2" y="2" width="24" height="24" rx="3" fill="#ECB365"/>
+  <!-- "LP" cut out using the deep blue background color -->
+  <text x="14.5" y="18" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#041C32" text-anchor="middle">
+    LP
+  </text>
+  <!-- Accent border in light pastel blue -->
+  <rect x="2" y="2" width="24" height="24" rx="3" fill="none" stroke="#A2D2FF" stroke-width="1"/>
+</svg>
