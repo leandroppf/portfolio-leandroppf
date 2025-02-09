@@ -43,7 +43,9 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
               >
                 {position.skills.map((skill) => (
                   <div
-                    key={skill}
+                    key={[experience.company.name, position.title, skill].join(
+                      '-',
+                    )}
                     className="rounded-full bg-foreground px-3 py-1 text-xs text-primary"
                   >
                     {skill}
