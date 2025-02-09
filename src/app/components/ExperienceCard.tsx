@@ -11,13 +11,13 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
     <Link
       href={experience.company.website}
       target="_blank"
-      className="group relative w-full rounded-md p-6 transition duration-300 hover:bg-foreground hover:shadow"
+      className="group relative w-full rounded-md p-2 transition duration-300 hover:bg-foreground hover:shadow lg:p-6"
     >
       <span className="text-base">{experience.company.name}</span>
 
       <ArrowUpRight
         size={16}
-        className="invisible absolute right-6 top-6 group-hover:visible"
+        className="invisible absolute right-2 top-2 group-hover:visible lg:right-6 lg:top-6"
       />
 
       <div className="flex flex-col gap-4">
