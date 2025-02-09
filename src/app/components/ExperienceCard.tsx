@@ -24,7 +24,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
         {experience.positions.map((position) => (
           <div
             key={position.startDate}
-            className="flex flex-row gap-8 text-secondary"
+            className="flex flex-col gap-4 text-secondary lg:flex-row lg:gap-8"
           >
             <span className="text-nowrap text-sm">
               {[position.endDate, position.startDate].join(' - ')}
