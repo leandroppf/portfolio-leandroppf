@@ -11,13 +11,17 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
     <Link
       href={experience.company.website}
       target="_blank"
-      className="group relative w-full rounded-md p-2 transition duration-300 hover:bg-foreground hover:shadow active:opacity-90 lg:p-6"
+      className={[
+        'group relative w-full rounded-md border border-sky-900/10 bg-sky-900/10 p-2 shadow shadow-sky-900/10 transition duration-300 hover:border-sky-900/20 hover:shadow-sky-900/20 active:opacity-90',
+        'dark:border-sky-900/50 dark:shadow-sky-900/50 dark:hover:border-sky-900/80 dark:hover:shadow-sky-900/80',
+        'lg:border-none lg:bg-inherit lg:p-6 lg:shadow-none lg:hover:bg-sky-900/10 lg:hover:shadow',
+      ].join(' ')}
     >
       <span className="text-base">{experience.company.name}</span>
 
       <ArrowUpRight
         size={16}
-        className="invisible absolute right-2 top-2 group-hover:visible lg:right-6 lg:top-6"
+        className="absolute right-2 top-2 transition-all duration-300 group-hover:right-1 group-hover:top-1 lg:invisible lg:right-6 lg:top-6 lg:group-hover:visible lg:group-hover:right-4 lg:group-hover:top-4"
       />
 
       <div className="flex flex-col gap-4">
@@ -40,7 +44,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
                 {position.skills.map((skill) => (
                   <div
                     key={skill}
-                    className="rounded-full bg-amber-600/10 px-3 py-1 text-xs text-primary"
+                    className="rounded-full bg-foreground px-3 py-1 text-xs text-primary"
                   >
                     {skill}
                   </div>
