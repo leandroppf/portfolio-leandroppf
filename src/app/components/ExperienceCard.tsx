@@ -11,7 +11,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
     <Link
       href={experience.company.website}
       target="_blank"
-      className="group relative w-full rounded-md p-2 transition duration-300 hover:bg-foreground hover:shadow lg:p-6"
+      className="group relative w-full rounded-md p-2 transition duration-300 hover:bg-foreground hover:shadow active:opacity-90 lg:p-6"
     >
       <span className="text-base">{experience.company.name}</span>
 
