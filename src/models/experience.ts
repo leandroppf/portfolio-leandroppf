@@ -13,7 +13,6 @@ export type Position = {
   description: string
   startDate: string
   endDate: string
-  experienceTime: string
   skills: string[]
 }
 

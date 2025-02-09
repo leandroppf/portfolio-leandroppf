@@ -15,7 +15,6 @@
         "description": "As a Senior Frontend Developer I work on various company projects, developing solutions using technologies such as NextJS, AstroJS, and vanilla TypeScript with ViteJS and PWA. Responsible for building complex voice recognition systems, integrating browser APIs for Speech to Text, state management, performance optimization, and real-time connections via WebSocket. Additionally, I work with GraphQL APIs to ensure efficient data flow and Sentry for application monitoring and error tracking. I am involved from the early stages of system development, always adhering to best coding practices and delivering robust, scalable solutions. I also implement automated testing using Jest, Vitest, and Cypress to ensure code quality and reliability. I collaborate closely with the design team to implement high-fidelity user interfaces, ensuring accurate layouts align with visual and functional specifications. I also contribute to CI/CD processes, creating workflows that ensure the application functions correctly with the newly developed code. Additionally, I help protect working branches as a security layer, ensuring that all code goes through the necessary validation stages before being deployed to production.",
         "startDate": "Oct 2023",
         "endDate": "Present",
-        "experienceTime": "1 yr 5 mos",
         "skills": [
           "React.js",
           "Next.js",
@@ -46,7 +45,6 @@
         "description": "As a Senior Frontend Developer I'm working on various products for the company Droz, defining architectures for the Frontend, CI processes and application standardization. Together with the Design team, we have developed a Design System for the company. I have developed a library of components and Design System that is used by all of Droz's products. The library has tests and accessibility for all the components, as well as extensive documentation using Storybook. We were able to greatly speed up the construction of new products with the library and the standards applied.",
         "startDate": "Apr 2023",
         "endDate": "Oct 2023",
-        "experienceTime": "7 mos",
         "skills": [
           "React.js",
           "Next.js",
@@ -67,7 +65,6 @@
         "description": "As a Frontend developer I worked on several Droz products using Angular.js, React, Next.js, Vue.js, Nuxt.js. I helped define a Frontend development pattern for the company, bringing the culture of testing and documenting projects.",
         "startDate": "Mar 2022",
         "endDate": "Apr 2023",
-        "experienceTime": "1 yr 2 mos",
         "skills": [
           "React.js",
           "Next.js",
@@ -101,7 +98,6 @@
         "description": "In this position I perform unit tests, state management, improvements in an old code including the creation of patterns that facilitated the learning of new developers, always within the guidelines of Clean code and SOLID. Several bugs were solved in the system and thanks to the development pattern created we managed to almost zero the bugs inserted with new features. I started the Front end documentation implementation using JSDoc to create more professional and easy to understand code.",
         "startDate": "Nov 2020",
         "endDate": "Mar 2022",
-        "experienceTime": "1 yr 5 mos",
         "skills": [
           "React.js",
           "Vue.js",
@@ -131,7 +127,6 @@
         "description": "In this position I worked with front end development using ReactJS and back end development using Goovy. I worked with PostgreSQL database management and maintenance, bug fixing in a legacy software and creation of new features, using Jobs, e-mails and forms. I also worked on the Front end creating new screens integrating with the Back end.Full stack development In this position I worked with front end development using ReactJS and back end development using Goovy. I worked with PostgreSQL database management and maintenance, bug fixing in a legacy software and creation of new features, using Jobs, e-mails and forms. I also worked on the Front end creating new screens integrating with the Back end.",
         "startDate": "Apr 2019",
         "endDate": "Nov 2020",
-        "experienceTime": "1 yr 8 mos",
         "skills": [
           "React.js",
           "Typescript",
@@ -162,7 +157,6 @@
         "description": "This position was an internship in the controller general of the State of Goiás.",
         "startDate": "Feb 2018",
         "endDate": "Apr 2019",
-        "experienceTime": "1 yr 3 mos",
         "skills": ["HTML", "CSS", "JavaScript", "Java"]
       }
     ]

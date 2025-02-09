@@ -31,7 +31,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
             className="flex flex-col gap-4 text-secondary lg:flex-row lg:gap-8"
           >
             <span className="text-nowrap text-sm">
-              {[position.endDate, position.startDate].join(' - ')}
+              {[position.startDate, position.endDate].join(' - ')}
             </span>
 
             <div className="flex flex-col gap-1">
