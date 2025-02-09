@@ -8,6 +8,7 @@ export default function Header() {
       <Image
         src="/brand.svg"
         alt="Portifolio brand"
+        className="fixed"
         width={40}
         height={40}
         priority

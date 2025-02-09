@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={[firaCode.className, 'scroll-smooth'].join(' ')}>
-      <body className="min-h-screen w-screen bg-background text-primary antialiased selection:bg-foreground">
+      <body className="min-h-screen w-screen overflow-x-hidden bg-background leading-relaxed text-primary antialiased selection:bg-foreground">
         {children}
       </body>
     </html>

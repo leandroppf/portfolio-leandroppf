@@ -17,3 +17,8 @@
     --secondary: #a2d2ff;
   }
 }
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--foreground) var(--background);
+}
