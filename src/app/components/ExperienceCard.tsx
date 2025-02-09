@@ -33,6 +33,19 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
             <div className="flex flex-col gap-1">
               <span className="font-bold">{position.title}</span>
               <p className="text-sm">{position.description}</p>
+              <div
+                id="position-skills"
+                className="mt-2 inline-flex flex-wrap gap-2"
+              >
+                {position.skills.map((skill) => (
+                  <div
+                    key={skill}
+                    className="rounded-full bg-amber-600/10 px-3 py-1 text-xs text-primary"
+                  >
+                    {skill}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         ))}
