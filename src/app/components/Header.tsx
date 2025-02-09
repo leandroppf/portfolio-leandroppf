@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import Link from 'next/link'
+import { GithubLogo, LinkedinLogo } from '@phosphor-icons/react/dist/ssr'
 
 export default function Header() {
   return (
@@ -18,6 +20,32 @@ export default function Header() {
         I’m a passionate Software Engineer from Brazil, specializing in building
         accessible and flawless digital experiences.
       </h3>
+
+      <div id="social-media" className="mt-6 flex flex-row gap-4 xl:mt-auto">
+        <Link
+          href="https://github.com/leandroppf"
+          aria-label="Leandro Pedroso Github link"
+          target="_blank"
+        >
+          <GithubLogo
+            size={40}
+            alt="Github Link"
+            className="rounded p-1 hover:bg-foreground active:opacity-90"
+          />
+        </Link>
+
+        <Link
+          href="https://www.linkedin.com/in/leandroppf"
+          aria-label="Leandro Pedroso LinkedIn link"
+          target="_blank"
+        >
+          <LinkedinLogo
+            size={40}
+            alt="LinkedIn Link"
+            className="rounded p-1 hover:bg-foreground active:opacity-90"
+          />
+        </Link>
+      </div>
     </header>
   )
 }
