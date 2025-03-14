@@ -12,7 +12,7 @@
     "positions": [
       {
         "title": "Senior Frontend Engineer",
-        "description": "As a Senior Frontend Developer I work on various company projects, developing solutions using technologies such as NextJS, AstroJS, and vanilla TypeScript with ViteJS and PWA. Responsible for building complex voice recognition systems, integrating browser APIs for Speech to Text, state management, performance optimization, and real-time connections via WebSocket. Additionally, I work with GraphQL APIs to ensure efficient data flow and Sentry for application monitoring and error tracking. I am involved from the early stages of system development, always adhering to best coding practices and delivering robust, scalable solutions. I also implement automated testing using Jest, Vitest, and Cypress to ensure code quality and reliability. I collaborate closely with the design team to implement high-fidelity user interfaces, ensuring accurate layouts align with visual and functional specifications. I also contribute to CI/CD processes, creating workflows that ensure the application functions correctly with the newly developed code. Additionally, I help protect working branches as a security layer, ensuring that all code goes through the necessary validation stages before being deployed to production.",
+        "description": "<ul class=\"list-disc\"><li><b>Full-Stack Development with a Frontend Focus</b>: Specializing in building and optimizing full-stack solutions, strongly emphasizing frontend development. My key technologies include React, Next.js, Tailwind CSS, Astro, Node.js, and Solid.js.</li><li><b>Teacher Platform Revamp</b>: Led the enhancement of the Teacher Platform by leveraging Context API and Zustand, improving state management, performance, and user experience.</li><li><b>Student Platform Development</b>: Collaborated closely with the team to design and build a seamless student platform tailored to user needs.</li><li><b>Reading Match Platform Refactor</b>: Refactored and rebuilt the children's book reading and highlighting platform, significantly improving code quality, performance, and scalability.</li><li><b>Performance & Scalability Optimization</b>: Focused on enhancing speed, scalability, and maintainability, ensuring a robust user experience and high-quality code.</li><li><b>Admin Panel Development</b>: Built a role-based, passwordless admin panel that allows employees to efficiently manage schools and students. Developed using Next.js, React.js, TypeScript, JavaScript, HTML, and CSS.</li></ul>",
         "startDate": "Oct 2023",
         "endDate": "Present",
         "skills": [
@@ -42,29 +42,9 @@
     "positions": [
       {
         "title": "Senior Frontend Engineer",
-        "description": "As a Senior Frontend Developer I'm working on various products for the company Droz, defining architectures for the Frontend, CI processes and application standardization. Together with the Design team, we have developed a Design System for the company. I have developed a library of components and Design System that is used by all of Droz's products. The library has tests and accessibility for all the components, as well as extensive documentation using Storybook. We were able to greatly speed up the construction of new products with the library and the standards applied.",
-        "startDate": "Apr 2023",
-        "endDate": "Oct 2023",
-        "skills": [
-          "React.js",
-          "Next.js",
-          "Typescript",
-          "HTML",
-          "CSS",
-          "GraphQL",
-          "Vue.js",
-          "Nuxt.js",
-          "Vuex",
-          "AngularJS",
-          "JavaScript",
-          "Jest"
-        ]
-      },
-      {
-        "title": "Frontend Engineer",
-        "description": "As a Frontend developer I worked on several Droz products using Angular.js, React, Next.js, Vue.js, Nuxt.js. I helped define a Frontend development pattern for the company, bringing the culture of testing and documenting projects.",
+        "description": "<ul class=\"list-disc\"><li><b>Frontend Skill Lead</b>: As a Frontend Skill Lead, I led a team of four frontend developers, developing project and development standards.</li><li><b>Design System</b>: I led the creation of a Component Library and Design System using React and Tailwind CSS, which standardized the company's UI and significantly optimized the time required to launch new projects.</li><li><b>I led the migration</b> of legacy projects to modern technologies, utilizing React.js, TypeScript, JavaScript, HTML, CSS, and Next.js.</li></ul>",
         "startDate": "Mar 2022",
-        "endDate": "Apr 2023",
+        "endDate": "Oct 2023",
         "skills": [
           "React.js",
           "Next.js",
@@ -95,7 +75,7 @@
     "positions": [
       {
         "title": "Frontend Engineer",
-        "description": "In this position I perform unit tests, state management, improvements in an old code including the creation of patterns that facilitated the learning of new developers, always within the guidelines of Clean code and SOLID. Several bugs were solved in the system and thanks to the development pattern created we managed to almost zero the bugs inserted with new features. I started the Front end documentation implementation using JSDoc to create more professional and easy to understand code.",
+        "description": "<ul class=\"list-disc\"><li>Worked on a legacy project, updating technologies focusing on performance and scalability.</li><li>Significantly improved page load speed and implemented unit tests to ensure feature quality.</li><li>Collaborated with a high-performance team, developing scalable and accessible features.</li><li>Worked closely with other teams, contributing to design and product decisions.</li></ul>",
         "startDate": "Nov 2020",
         "endDate": "Mar 2022",
         "skills": [
@@ -124,7 +104,7 @@
     "positions": [
       {
         "title": "Full stack Engineer",
-        "description": "In this position I worked with front end development using ReactJS and back end development using Goovy. I worked with PostgreSQL database management and maintenance, bug fixing in a legacy software and creation of new features, using Jobs, e-mails and forms. I also worked on the Front end creating new screens integrating with the Back end.Full stack development In this position I worked with front end development using ReactJS and back end development using Goovy. I worked with PostgreSQL database management and maintenance, bug fixing in a legacy software and creation of new features, using Jobs, e-mails and forms. I also worked on the Front end creating new screens integrating with the Back end.",
+        "description": "<ul class=\"list-disc\"><li>Contributed to the migration of legacy software from Angular.js to React.js, significantly improving software quality and performance.</li><li>Worked on both the frontend and backend of a role-based administrative platform, enabling employees to manage and control accounts efficiently.</li></ul>",
         "startDate": "Apr 2019",
         "endDate": "Nov 2020",
         "skills": [

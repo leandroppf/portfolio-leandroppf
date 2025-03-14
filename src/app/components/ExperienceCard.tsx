@@ -36,7 +36,10 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
 
             <div className="flex flex-col gap-1">
               <span className="font-bold">{position.title}</span>
-              <p className="text-sm">{position.description}</p>
+              <p
+                className="text-sm"
+                dangerouslySetInnerHTML={{ __html: position.description }}
+              ></p>
               <div
                 id="position-skills"
                 className="mt-2 inline-flex flex-wrap gap-2"
