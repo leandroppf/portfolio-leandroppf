@@ -1,6 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { GithubLogo, LinkedinLogo } from '@phosphor-icons/react/dist/ssr'
+import {
+  ArrowUpRight,
+  GithubLogo,
+  LinkedinLogo,
+} from '@phosphor-icons/react/dist/ssr'
 
 export default function Header() {
   return (
@@ -21,7 +25,10 @@ export default function Header() {
         accessible and flawless digital experiences.
       </h3>
 
-      <div id="social-media" className="mt-6 flex flex-row gap-4 xl:mt-auto">
+      <div
+        id="social-media"
+        className="mt-6 flex flex-row items-center gap-4 xl:mt-auto"
+      >
         <Link
           href="https://github.com/leandroppf"
           aria-label="Leandro Pedroso Github link"
@@ -43,6 +50,19 @@ export default function Header() {
             size={40}
             alt="LinkedIn Link"
             className="rounded p-1 hover:bg-foreground active:opacity-90"
+          />
+        </Link>
+
+        <Link
+          href="/leandro_pedroso.pdf"
+          aria-label="Leandro Pedroso Resume link"
+          target="_blank"
+          className="group inline-flex h-10 items-center gap-2 text-secondary underline underline-offset-2"
+        >
+          View full resume
+          <ArrowUpRight
+            size={16}
+            className="invisible -mt-2 text-primary transition-all duration-300 group-hover:visible group-hover:-mt-4 group-hover:ml-2"
           />
         </Link>
       </div>
