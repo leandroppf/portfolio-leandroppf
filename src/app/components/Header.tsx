@@ -6,6 +6,8 @@ import {
   LinkedinLogo,
 } from '@phosphor-icons/react/dist/ssr'
 
+import Navigation from './Navigation'
+
 export default function Header() {
   return (
     <header className="flex w-full flex-col items-start pt-8 xl:sticky xl:top-0 xl:h-screen xl:max-w-[calc(1280px_*_0.4)] xl:py-16">
@@ -20,10 +22,12 @@ export default function Header() {
 
       <h1 className="mb-4 text-secondary">Hi, my name is</h1>
       <h2 className="mb-8 text-4xl font-bold">Leandro Pedroso.</h2>
-      <h3 className="max-w-md text-secondary">
+      <p className="max-w-md text-secondary">
         I’m a passionate Software Engineer from Brazil, specializing in building
         accessible and flawless digital experiences.
-      </h3>
+      </p>
+
+      <Navigation />
 
       <div
         id="social-media"
