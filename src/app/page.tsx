@@ -2,19 +2,20 @@ import Experience from '@/app/components/Experience'
 import Header from '@/app/components/Header'
 import TextLink from '@/app/components/TextLink'
 import Projects from '@/app/components/Projects'
+import Section from './components/Section'
 
 export default function Home() {
   return (
     <div className="grid w-full max-w-7xl justify-start gap-8 px-6 md:px-12 xl:grid-cols-[4fr_6fr]">
       <Header />
       <main className="flex flex-col gap-10 pb-12 xl:col-start-2 xl:pt-12">
-        <section>
+        <Section headingId="experience" headingTitle="Experience">
           <Experience />
-        </section>
+        </Section>
 
-        <section>
+        <Section headingId="projects" headingTitle="Projects">
           <Projects />
-        </section>
+        </Section>
 
         <footer className="inline-flex w-full items-center justify-center text-sm text-secondary">
           <p>
