@@ -25,7 +25,7 @@
   },
   {
     "title": "Rick and Morty Universe Guide",
-    "description": "A web application to explore Nuxt.js and Vue.js capaibilities.",
+    "description": "A web application to explore Nuxt.js and Vue.js capabilities.",
     "imageURL": "/projects/project-universe-guide.png",
     "githubURL": "https://github.com/leandroppf/nuxt-universe-guide",
     "liveURL": "https://universe-guide.netlify.app",
