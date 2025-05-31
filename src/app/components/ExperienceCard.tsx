@@ -1,6 +1,7 @@
 import { Experience } from '@/models/experience'
 import { ArrowUpRight } from '@phosphor-icons/react/dist/ssr'
 import Link from 'next/link'
+import Skills from './Skills'
 
 interface ExperienceCardProps {
   experience: Experience
@@ -40,21 +41,7 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
                 className="text-sm"
                 dangerouslySetInnerHTML={{ __html: position.description }}
               ></p>
-              <div
-                id="position-skills"
-                className="mt-2 inline-flex flex-wrap gap-2"
-              >
-                {position.skills.map((skill) => (
-                  <div
-                    key={[experience.company.name, position.title, skill].join(
-                      '-',
-                    )}
-                    className="rounded-full bg-foreground px-3 py-1 text-xs text-primary"
-                  >
-                    {skill}
-                  </div>
-                ))}
-              </div>
+              <Skills skills={position.skills} />
             </div>
           </div>
         ))}
