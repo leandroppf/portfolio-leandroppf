@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <div className="flex w-full flex-col items-center gap-2">
       <div className="flex w-full flex-col items-center justify-center gap-8">
-        {projects.length &&
+        {projects.length > 0 &&
           projects.map((project) => (
             <ProjectCard key={project.title} project={project} />
           ))}
