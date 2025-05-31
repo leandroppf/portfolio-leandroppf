@@ -14,8 +14,9 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div
       className={cn(
-        'flex w-full flex-row gap-4 overflow-hidden rounded-md border border-sky-900/10 bg-sky-900/10 shadow shadow-sky-900/10',
+        'flex w-full flex-col gap-4 overflow-hidden rounded-md border border-sky-900/10 bg-sky-900/10 shadow shadow-sky-900/10',
         'dark:border-sky-900/50 dark:shadow-sky-900/50',
+        'md:flex-row',
       )}
     >
       <Image
@@ -23,7 +24,11 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         alt={project.title}
         width={300}
         height={200}
-        className="h-52 w-auto"
+        className={cn(
+          'h-52 w-auto object-fill',
+          'md:rounded-l-md md:object-cover',
+        )}
+        loading="lazy"
       />
 
       <div className={cn('flex flex-col gap-1 p-2 text-secondary')}>
