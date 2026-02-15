@@ -15,7 +15,7 @@ export default function NavigationLink({
       {...props}
       className={cn(
         'relative inline-block w-fit leading-none text-primary outline-0',
-        'after:block after:h-[1px] after:w-0 after:bg-primary after:transition-[width] after:duration-300 hover:after:w-full',
+        'after:block after:h-px after:w-0 after:bg-primary after:transition-[width] after:duration-300 hover:after:w-full',
         active ? 'after:w-full' : 'after:w-0',
       )}
     />

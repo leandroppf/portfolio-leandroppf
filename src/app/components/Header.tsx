@@ -10,7 +10,7 @@ import Navigation from './Navigation'
 
 export default function Header() {
   return (
-    <header className="flex w-full flex-col items-start pt-8 xl:sticky xl:top-0 xl:h-screen xl:max-w-[calc(1280px_*_0.4)] xl:py-16">
+    <header className="flex w-full flex-col items-start pt-8 xl:sticky xl:top-0 xl:h-screen xl:max-w-[calc(1280px*0.4)] xl:py-16">
       <Image
         src="/brand.svg"
         alt="Portifolio brand"
@@ -41,7 +41,7 @@ export default function Header() {
           <GithubLogo
             size={40}
             alt="Github Link"
-            className="rounded p-1 hover:bg-foreground active:opacity-90"
+            className="rounded-sm p-1 hover:bg-foreground active:opacity-90"
           />
         </Link>
 
@@ -53,7 +53,7 @@ export default function Header() {
           <LinkedinLogo
             size={40}
             alt="LinkedIn Link"
-            className="rounded p-1 hover:bg-foreground active:opacity-90"
+            className="rounded-sm p-1 hover:bg-foreground active:opacity-90"
           />
         </Link>
 

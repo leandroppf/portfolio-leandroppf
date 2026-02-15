@@ -8,12 +8,18 @@
     "technologies": ["React.js", "TypeScript", "Tailwind CSS", "Next.js"]
   },
   {
-    "title": "Droz Visu",
-    "description": "Component Library and Design System for Droz, a Brazilian company.",
-    "imageURL": "/projects/project-visu.png",
-    "githubURL": "https://github.com/droztech/droz-visu",
-    "liveURL": "https://visu.meudroz.com",
-    "technologies": ["React.js", "TypeScript", "Tailwind CSS"]
+    "title": "Data Grid Component",
+    "description": "Data Grid Component using virtualization to render large amounts of data.",
+    "imageURL": "/projects/project-data-grid.png",
+    "githubURL": "https://github.com/leandroppf/interactive-data-grid",
+    "liveURL": "https://leandroppf-interactive-data-grid-fr.vercel.app/",
+    "technologies": [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Virtualization",
+      "Tanstack"
+    ]
   },
   {
     "title": "Microsoft Azure STT Logs Viewer",

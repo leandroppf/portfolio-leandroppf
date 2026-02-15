@@ -13,9 +13,9 @@ export default function ExperienceCard({ experience }: ExperienceCardProps) {
       href={experience.company.website}
       target="_blank"
       className={[
-        'group relative w-full rounded-md border border-sky-900/10 bg-sky-900/10 p-2 shadow shadow-sky-900/10 transition duration-300 hover:border-sky-900/20 hover:shadow-sky-900/20 active:opacity-90',
+        'group relative w-full rounded-md border border-sky-900/10 bg-sky-900/10 p-2 shadow-sm shadow-sky-900/10 transition duration-300 hover:border-sky-900/20 hover:shadow-sky-900/20 active:opacity-90',
         'dark:border-sky-900/50 dark:shadow-sky-900/50 dark:hover:border-sky-900/80 dark:hover:shadow-sky-900/80',
-        'lg:border-none lg:bg-inherit lg:p-6 lg:shadow-none lg:hover:bg-sky-900/10 lg:hover:shadow',
+        'lg:border-none lg:bg-inherit lg:p-6 lg:shadow-none lg:hover:bg-sky-900/10 lg:hover:shadow-sm',
       ].join(' ')}
     >
       <span className="text-base">{experience.company.name}</span>
